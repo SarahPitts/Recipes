@@ -1,19 +1,21 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <title>It's <%=who%></title>
-    <%-scripts%>
-    <%-stylesheets%>
-  </head>
-  <body>
-    <header>
-      <%-blocks.header%>
-    </header>
-    <section>
-      <%-body -%>
-    </section>
-    <footer>
-      <%-blocks.footer%>
-    </footer>
-  </body>
+
+<title><%= title %></title>
+
+<style type="text/css" media="screen">
+
+body {
+
+font-family: "Gill Sans", Helvetica, Arial;
+
+}
+
+</style>
+
+<body>
+
+<%- body %>
+
+</body>
+
 </html>
